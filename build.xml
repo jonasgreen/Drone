@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir=".">
+	
+	<taskdef name="jarbundler" classname="net.sourceforge.jarbundler.JarBundler" />
+
+	
+	<jarbundler dir="."
+            name="Drone"
+            mainclass="com.jg.hgsvn.Main" 
+            jar="Drone.jar"
+            icon="appIcon.icns"/>
+
+		
+	
+</project>
